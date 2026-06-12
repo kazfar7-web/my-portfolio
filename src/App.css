@@ -8,15 +8,15 @@
 }
 
 :root {
-  --bg: #F7F4EF;
-  --surface: #FFFFFF;
-  --border: #E5E0D8;
-  --accent: #C17F3E;
-  --accent-dark: #A06830;
-  --text-primary: #1A1714;
-  --text-secondary: #5C5650;
-  --text-muted: #9C9690;
-  --tag-bg: #F3E9DC;
+   --bg: #0D1117;
+  --surface: #161B22;
+  --border: #30363D;
+  --accent: #2DD4BF;
+  --accent-dark: #14B8A6;
+  --text-primary: #E6EDF3;
+  --text-secondary: #9DA7B3;
+  --text-muted: #6E7681;
+  --tag-bg: #1A2E2B;  
 }
 
 body {
@@ -32,7 +32,7 @@ body {
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(247, 244, 239, 0.92);
+  background: rgba(26, 26, 31, 0.92);
   backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--border);
   padding: 0 48px;
@@ -73,6 +73,8 @@ body {
   padding: 96px 48px 80px;
   border-bottom: 1px solid var(--border);
   max-width: 860px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .hero-tag {
@@ -135,6 +137,8 @@ body {
   padding: 72px 48px;
   border-bottom: 1px solid var(--border);
   max-width: 860px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .section-label {
@@ -294,6 +298,7 @@ body {
   font-size: 13px;
   color: var(--text-secondary);
   margin-bottom: 20px;
+  line-height: 1.8;
 }
 
 .contact-btn {
@@ -460,4 +465,13 @@ body {
     text-align: center;
     display: block;
   }
+  .email-link {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
 }

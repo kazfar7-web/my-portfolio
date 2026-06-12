@@ -95,7 +95,15 @@ function App() {
               View GitHub →
             </a>
           </div>
-
+<div className="contact-block">
+            <p className="contact-block-label">Direct Contact</p>
+            <h3>Reach Out Directly</h3>
+            <p>
+              📧 <a href="mailto:kazfar7@gmail.com" className="email-link">kazfar7@gmail.com</a><br />
+              📞 +971 56 111 9967<br />
+              📍 Abu Dhabi, United Arab Emirates
+            </p>
+          </div>
         </div>
       </section>
 
