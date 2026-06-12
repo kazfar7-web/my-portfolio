@@ -330,14 +330,134 @@ body {
   color: var(--text-muted);
 }
 
+/* TABLET */
+@media (max-width: 1024px) {
+  .hero h1 {
+    font-size: 52px;
+  }
+
+  .section {
+    padding: 64px 36px;
+  }
+
+  .nav {
+    padding: 0 36px;
+  }
+}
+
 /* MOBILE */
-@media (max-width: 640px) {
-  .nav { padding: 0 24px; }
-  .nav-links { gap: 16px; }
-  .hero { padding: 60px 24px 48px; }
-  .hero h1 { font-size: 40px; }
-  .section { padding: 48px 24px; }
-  .contact-grid { grid-template-columns: 1fr; }
-  .exp-header { flex-direction: column; gap: 8px; }
-  .footer { padding: 24px; }
+@media (max-width: 768px) {
+  /* Nav */
+  .nav {
+    flex-direction: column;
+    height: auto;
+    padding: 16px 24px;
+    gap: 12px;
+  }
+
+  .nav-links {
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* Hero */
+  .hero {
+    padding: 60px 24px 48px;
+  }
+
+  .hero h1 {
+    font-size: 38px;
+    letter-spacing: -1px;
+  }
+
+  .hero-sub {
+    font-size: 16px;
+  }
+
+  .hero-location {
+    font-size: 13px;
+  }
+
+  /* Sections */
+  .section {
+    padding: 48px 24px;
+  }
+
+  /* Education */
+  .edu-card {
+    padding: 20px 20px;
+  }
+
+  .edu-card h3 {
+    font-size: 18px;
+  }
+
+  /* Experience */
+  .exp-card {
+    padding: 20px 20px;
+  }
+
+  .exp-header {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .exp-card h3 {
+    font-size: 18px;
+  }
+
+  /* Achievements */
+  .ach-card {
+    flex-direction: column;
+    padding: 20px 20px;
+  }
+
+  .ach-icon {
+    width: 44px;
+    height: 44px;
+    font-size: 20px;
+  }
+
+  /* Contact */
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-block {
+    padding: 20px 20px;
+  }
+
+  /* Footer */
+  .footer {
+    padding: 24px;
+    text-align: center;
+  }
+}
+
+/* SMALL MOBILE */
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 30px;
+  }
+
+  .nav-logo {
+    font-size: 16px;
+  }
+
+  .nav-links {
+    font-size: 11px;
+    gap: 12px;
+  }
+
+  .hero-cta {
+    width: 100%;
+    text-align: center;
+  }
+
+  .contact-btn {
+    width: 100%;
+    text-align: center;
+    display: block;
+  }
 }

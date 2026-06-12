@@ -6,7 +6,7 @@ function App() {
 
       {/* NAV */}
       <nav className="nav">
-        <span className="nav-logo">Azfar Khan</span>
+        <span className="nav-logo">Portfolio</span>
         <ul className="nav-links">
           <li><a href="#education">Education</a></li>
           <li><a href="#experience">Experience</a></li>
